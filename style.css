@@ -197,3 +197,137 @@ ul{
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media (min-width:650px) {
+    header{
+        background-image: url('./images/bg-hero-desktop.svg');
+    }
+
+    .header-main{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    header p{
+        font-size: 0.8rem;
+    }
+
+    .header-main div{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-main img{
+        width: 40%;
+        height: 40%;
+        margin: 0;
+    }
+
+    .flex{
+        display: flex;
+        justify-content:flex-end;
+    }
+
+    .container{
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .flex-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:flex-start;
+        
+    }
+
+    .container img{
+        width: 50%;
+        height: 50%;
+        margin: 0;
+    }
+
+    .container div{
+        width: 50%;
+    }
+
+    .container p{
+        font-size: 0.8rem;
+        width: 90%;
+        margin: auto;
+    }
+
+    .ready{
+        width: 50%;
+    }
+
+    footer{
+        padding: 8rem 3rem 1rem;
+    }
+
+    .footer-logo{
+        width: 20%;
+        height: 20%;
+    }
+
+    .footer-main{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-contact{
+        width: 30%;
+    }
+
+    ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 4rem;
+        align-items: center;
+    }
+
+    .do{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .faq{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .social{
+        align-items: center;
+        margin: 0;
+    }
+
+    .footer-dates{
+        margin-bottom: 1rem;
+    }
+
+    .footer-dates p{
+        font-size: 0.7rem;
+        line-height: 1.5;
+    }
+
+    ul{
+        font-size: 0.7rem;
+        line-height: 1.5;
+    }
+
+    .copy{
+        text-align: right;
+    }
+
+    .attribution{
+        margin: 2rem auto 0;
+    }
+
+}
