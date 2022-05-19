@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [HualDev](https://github.com/HualDev/HuddleLandingPage)
-- Live Site URL: [DropDown](https://hualdev.github.io/HuddleLandingPage/)
+- Live Site URL: [Huddle](https://hualdev.github.io/HuddleLandingPage/)
 
 ## My process
 
